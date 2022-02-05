@@ -18,8 +18,8 @@ class MainView():
     temp = 0;
     loadingSpinner = pn.indicators.LoadingSpinner(value = True)
     rangeSlider =  pn.widgets.RangeSlider(name = 'WIP: Date Range Slider', start = 1870, end = 2020, value = (1870, 2020), step = 1)
-    country = []
-
+    country = pn.widgets.AutocompleteInput(name = 'Country', options = [], placeholder = 'Search for country', value = 'afghanistan')
+    
     def getCountryList():
         r = http.request('GET', 'http://berkeleyearth.lbl.gov/country-list')
         countrylist = np.array(re.findall('<tr><td><a href="http://berkeleyearth.lbl.gov/regions/(.*?)">(.*?)</td>', str(r.data)))

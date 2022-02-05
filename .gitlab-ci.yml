@@ -39,12 +39,6 @@ run:
   script:
     - pip install -r 'requirements.txt'
     - python main.py
-    # an alternative approach is to install and run:
-    - pip install dist/*
-    # run the command here
-  artifacts:
-    paths:
-      - dist/*.whl
 
 pages:
   script:

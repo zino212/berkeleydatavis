@@ -20,8 +20,8 @@ class MainView():
     rangeSlider =  pn.widgets.RangeSlider(name = 'WIP: Date Range Slider', start = 1870, end = 2020, value = (1870, 2020), step = 1)
     country = pn.widgets.AutocompleteInput(name = 'Country', options = [], placeholder = 'Search for country', value = 'afghanistan')
     
-    def getCountryList(this):
-        r = this.http.request('GET', 'http://berkeleyearth.lbl.gov/country-list')
+    def getCountryList(self):
+        r = self.http.request('GET', 'http://berkeleyearth.lbl.gov/country-list')
         countrylist = np.array(re.findall('<tr><td><a href="http://berkeleyearth.lbl.gov/regions/(.*?)">(.*?)</td>', str(r.data)))
         countrylist[:,0]; # liste der Links
         countrylist[:,1]; # liste der Namen der Länder #TODO: Encoding von Sonderzeichen in Ländernamen reparieren
@@ -30,10 +30,10 @@ class MainView():
 
 
 
-    def loadCountry(this, country_name):
+    def loadCountry(self, country_name):
         data = pd.read_csv("http://berkeleyearth.lbl.gov/auto/Regional/TAVG/Text/" + country_name + "-TAVG-Trend.txt",sep="\s+",engine='python', comment = "%", names=["Year","Month","Monthly Anomaly","Monthly Uncertainty","Annual Anomaly","Annual Uncertainty","Five-year Anomaly","Five-year Uncertainty","Ten-year Anomaly","Ten-year Uncertainty","Twenty-year Anomaly","Twenty-year Uncertainty"]);
         data["YearT"]=pd.to_datetime(data[["Year"]].assign(day=1,month=1));
-        temperature=this.http.request("GET","http://berkeleyearth.lbl.gov/auto/Regional/TAVG/Text/" + country_name + "-TAVG-Trend.txt");
+        temperature=self.http.request("GET","http://berkeleyearth.lbl.gov/auto/Regional/TAVG/Text/" + country_name + "-TAVG-Trend.txt");
         absolute_temp=re.findall(r'Estimated Jan 1951-Dec 1980 absolute temperature \(C\): (-?\d+\.\d+) \+\/- (\d+\.\d+)',str(temperature.data));
         data["Total Temperature"]=data["Annual Anomaly"]+float(absolute_temp[0][0]);
         dataJune = data[data["Month"]==6];
@@ -41,10 +41,10 @@ class MainView():
         temp = float(absolute_temp[0][0]);
         return dataJune
 
-    def mainPlot(this, country_name):
-        this.column.insert(0,this.loadingSpinner)
-        dataJune = this.loadCountry(country_name)
-        this.column.remove(this.loadingSpinner)
+    def mainPlot(self, country_name):
+        self.column.insert(0,self.loadingSpinner)
+        dataJune = self.loadCountry(country_name)
+        self.column.remove(self.loadingSpinner)
         return  alt.Chart(dataJune).mark_bar(size=4).encode(
             x = alt.X('YearT:T',title = 'Year', scale = alt.Scale(domain = ['1870-01-01','2021-01-01'], clamp = True)),
             y = alt.Y('Annual Anomaly', title = 'WIP: Deviation from Average (°C)'),
@@ -61,11 +61,11 @@ class MainView():
             )
 
     @pn.depends(country.param.value)
-    def output(this, country_name):
+    def output(self, country_name):
         return pn.Row(
             pn.Column(
-                this.mainPlot(country_name),
-                this.rangeSlider
+                self.mainPlot(country_name),
+                self.rangeSlider
             ), 
             pn.Column(
                 country,
@@ -73,9 +73,9 @@ class MainView():
                 pn.pane.HTML("&nbsp;Data Source: <a href='https://berkeleyearth.org/data/' target='_blank' style='color: #0645AD'>Berkeley Earth <img src='https://t3.ftcdn.net/jpg/02/87/13/96/360_F_287139698_MWcmLH0B9rNW12saEE1Q2qVSXnnljjKv.jpg' width=15 height=15></a>")
             ))
 
-    def main(this):
-        this.getCountryList()
-        view = pn.Row(this.output)
+    def main(self):
+        self.getCountryList()
+        view = pn.Row(self.output)
 
         view.servable()
 

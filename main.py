@@ -79,7 +79,8 @@ class MainView():
 
         view.servable()
 
-view = MainView()
-MainView.main(view)
+print('test')
+mview = MainView()
+MainView.main(mview)
 
 

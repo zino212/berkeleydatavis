@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-
-
 import altair as alt
 import pandas as pd
 import panel as pn

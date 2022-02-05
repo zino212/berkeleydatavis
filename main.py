@@ -1,0 +1,144 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+import altair as alt
+import pandas as pd
+import panel as pn
+import re
+import urllib3 as url
+import numpy as np
+import datetime as dt
+pn.extension('vega')
+dataJune = []
+http = url.PoolManager()
+column = pn.Column()
+from itertools import product
+alt.data_transformers.disable_max_rows()
+global temp 
+temp = 0;
+
+
+# In[2]:
+
+
+#year_slider=alt.binding_range(name="Years",min=min(germanyJune['Year']),max=max(germanyJune['Year']));
+#selection=alt.selection_interval(bind=year_slider,fields=germanyJune['Year']);
+#date_range_slider = pn.widgets.DateRangeSlider(
+#    name='Date Range Slider',
+#    start=min(germanyJune['YearT']),
+#    end=max(germanyJune['YearT']),
+#    value=(min(germanyJune['YearT']), max(germanyJune['YearT']))
+#)
+
+
+# In[3]:
+
+
+r = http.request('GET', 'http://berkeleyearth.lbl.gov/country-list')
+#countrytable = re.search('<table class="table table-condensed table-hover">(.)</table>', str(r.data))
+countrylist = np.array(re.findall('<tr><td><a href="http://berkeleyearth.lbl.gov/regions/(.*?)">(.*?)</td>', str(r.data)))
+countrylist[:,0]; # liste der Links
+countrylist[:,1]; # liste der Namen der Länder #TODO: Encoding von Sonderzeichen in Ländernamen reparieren
+
+
+# In[4]:
+
+
+# continentLists
+#continents = ['europe', 'asia', 'africa', 'oceania','south-america', 'north-america']
+
+# this creates the dropdown widget
+#country = pn.widgets.Select(name = 'Country', options = countrylist[:,0].tolist())
+country = pn.widgets.AutocompleteInput(name = 'Country', options = countrylist[:,0].tolist(), placeholder = 'Search for country', value = 'afghanistan')
+
+
+# In[5]:
+
+
+loadingSpinner = pn.indicators.LoadingSpinner(value = True)
+rangeSlider =  pn.widgets.RangeSlider(name = 'WIP: Date Range Slider', start = 1870, end = 2020, value = (1870, 2020), step = 1)
+
+
+# In[6]:
+
+
+def loadCountry(country_name):
+    data = pd.read_csv("http://berkeleyearth.lbl.gov/auto/Regional/TAVG/Text/" + country_name + "-TAVG-Trend.txt",sep="\s+",engine='python', comment = "%", names=["Year","Month","Monthly Anomaly","Monthly Uncertainty","Annual Anomaly","Annual Uncertainty","Five-year Anomaly","Five-year Uncertainty","Ten-year Anomaly","Ten-year Uncertainty","Twenty-year Anomaly","Twenty-year Uncertainty"]);
+    data["YearT"]=pd.to_datetime(data[["Year"]].assign(day=1,month=1));
+    temperature=http.request("GET","http://berkeleyearth.lbl.gov/auto/Regional/TAVG/Text/" + country_name + "-TAVG-Trend.txt");
+    absolute_temp=re.findall(r'Estimated Jan 1951-Dec 1980 absolute temperature \(C\): (-?\d+\.\d+) \+\/- (\d+\.\d+)',str(temperature.data));
+    data["Total Temperature"]=data["Annual Anomaly"]+float(absolute_temp[0][0]);
+    dataJune = data[data["Month"]==6];
+    global temp
+    temp = float(absolute_temp[0][0]);
+    return dataJune
+
+
+# In[56]:
+
+
+def mainPlot(country_name):
+    column.insert(0,loadingSpinner)
+    dataJune = loadCountry(country_name)
+    column.remove(loadingSpinner)
+    return  alt.Chart(dataJune).mark_bar(size=4).encode(
+        x = alt.X('YearT:T',title = 'Year', scale = alt.Scale(domain = ['1870-01-01','2021-01-01'], clamp = True)),
+        y = alt.Y('Annual Anomaly', title = 'WIP: Deviation from Average (°C)'),
+        color = alt.Color('Annual Anomaly', title = 'WIP: Deviation from Average (°C)', scale = alt.Scale(scheme = "redblue", reverse = True, domainMid = 0)),
+        tooltip = ['Year','Total Temperature', 'Annual Anomaly','Annual Uncertainty']
+        ).properties(
+            title = 'WIP: Visualization of climate crisis',
+            width = 1000,
+            height = 400
+        ).configure_legend(
+            titleOrient = 'left',
+            gradientLength = 400,
+            gradientThickness = 30
+        )
+
+
+# In[98]:
+
+
+@pn.depends(country.param.value)
+def output(country_name):
+    return pn.Row(
+        pn.Column(
+            mainPlot(country_name),
+            rangeSlider
+        ), 
+        pn.Column(
+            country,
+            pn.widgets.StaticText(name='Average Temp. 1951-1980', value = str(temp)+'°C'),
+            pn.pane.HTML("&nbsp;Data Source: <a href='https://berkeleyearth.org/data/' target='_blank' style='color: #0645AD'>Berkeley Earth <img src='https://t3.ftcdn.net/jpg/02/87/13/96/360_F_287139698_MWcmLH0B9rNW12saEE1Q2qVSXnnljjKv.jpg' width=15 height=15></a>")
+        ))
+
+#column = pn.Column(mainPlot,rangeSlider)
+#view = pn.Row(
+#    column, # draw chart function!
+#    pn.Column(country,temp)
+#)
+
+view = pn.Row(output)
+
+
+# In[99]:
+
+
+view.servable()
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+

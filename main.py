@@ -80,6 +80,7 @@ class MainView():
         view.servable()
 
 if __name__ == '__main__':
-    MainView.main()
+    view = MainView()
+    MainView.main(view)
 
 

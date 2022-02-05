@@ -79,8 +79,7 @@ class MainView():
 
         view.servable()
 
-if __name__ == '__main__':
-    view = MainView()
-    MainView.main(view)
+view = MainView()
+MainView.main(view)
 
 

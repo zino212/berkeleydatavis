@@ -43,7 +43,7 @@ run:
 pages:
   script:
     - pip install -r 'requirements.txt'
-    - python main.py
+    - python -m panel serve main.py
 
   artifacts:
     paths:

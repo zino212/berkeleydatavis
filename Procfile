@@ -1,1 +1,2 @@
-web: panel serve --address="0.0.0.0" --port=$PORT main.ipynb --allow-websocket-origin=berkeleydatavis.herokuapp.com
+web: panel serve --address="0.0.0.0" --port=$PORT main.ipynb --allow-websocket-origin=berkeleydatavis.herokuapp.com/detail
+web: panel serve --address="0.0.0.0" --port=$PORT overview.ipynb --allow-websocket-origin=berkeleydatavis.herokuapp.com

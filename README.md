@@ -10,7 +10,13 @@ Luis Günther, Maurice Seifert, Wenli Xu
 
 Global warming has been observed since the pre-industrial period (between 1850 and 1900). Although there were different periods of climate change in the history of the earth, the current changes are not simply due to natural causes. It is a global problem, but people in different countries express various degrees of concerns.
 
-## Concept
+## Links
+
+Interactive Prototype:
+- https://berkeleydatavis.herokuapp.com/start
+
+Screencast of Prototype:
+- https://youtu.be/KkbPHWmv08s
 
 # Reflection
 
@@ -35,7 +41,7 @@ After different failed approaches with various techniques to achieve this functi
 
 ### Missing Countries
 
-The automatic download of Berkeley Earth Data did not work for every country. Special characters are encoded in a mysterious way and we failed to decode these characters in Python. Our only remaining solution was to remove the three countries with these problems.
+The automatic download of Berkeley Earth Data did not work for every country. Special characters are encoded in a mysterious way and we failed to decode these characters in Python. Our only remaining solution was to remove the countries with these problems.
 
 This applies to the following countries:
 - Åland,
@@ -49,8 +55,6 @@ This applies to the following countries:
 - Antarctica,
 - French Southern and Antarctic Lands,
 - Heard Island and McDonald Islands.
-
-### Further Improvements
 
 ### Used Libraries
 

@@ -51,8 +51,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -68,8 +68,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -281,8 +281,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -298,8 +298,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -511,8 +511,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -528,8 +528,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -741,8 +741,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -758,8 +758,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -971,8 +971,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -988,8 +988,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -1201,8 +1201,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -1218,8 +1218,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -1431,8 +1431,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -1448,8 +1448,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -1661,8 +1661,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -1678,8 +1678,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -1891,8 +1891,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -1908,8 +1908,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -2121,8 +2121,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -2138,8 +2138,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -2351,8 +2351,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -2368,8 +2368,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -2581,8 +2581,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -2598,8 +2598,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -2811,8 +2811,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -2828,8 +2828,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -3041,8 +3041,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -3058,8 +3058,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -3271,8 +3271,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -3288,8 +3288,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -3501,8 +3501,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -3518,8 +3518,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -3731,8 +3731,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -3748,8 +3748,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -3961,8 +3961,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -3978,8 +3978,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -4191,8 +4191,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -4208,8 +4208,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -4421,8 +4421,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -4438,8 +4438,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -4651,8 +4651,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -4668,8 +4668,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -4881,8 +4881,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -4898,8 +4898,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -5111,8 +5111,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -5128,8 +5128,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -5341,8 +5341,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -5358,8 +5358,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -5571,8 +5571,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -5588,8 +5588,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -5801,8 +5801,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -5818,8 +5818,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -6031,8 +6031,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -6048,8 +6048,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -6261,8 +6261,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -6278,8 +6278,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -6491,8 +6491,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -6508,8 +6508,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -6721,8 +6721,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -6738,8 +6738,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -6951,8 +6951,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -6968,8 +6968,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -7181,8 +7181,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -7198,8 +7198,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -7411,8 +7411,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -7428,8 +7428,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -7641,8 +7641,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -7658,8 +7658,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -7871,8 +7871,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -7888,8 +7888,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -8101,8 +8101,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -8118,8 +8118,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -8331,8 +8331,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -8348,8 +8348,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -8561,8 +8561,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -8578,8 +8578,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -8791,8 +8791,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -8808,8 +8808,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -9021,8 +9021,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -9038,8 +9038,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -9251,8 +9251,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -9268,8 +9268,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -9481,8 +9481,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -9498,8 +9498,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -9711,8 +9711,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -9728,8 +9728,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -9941,8 +9941,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -9958,8 +9958,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -10171,8 +10171,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -10188,8 +10188,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -10401,8 +10401,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -10418,8 +10418,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -10631,8 +10631,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -10648,8 +10648,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -10861,8 +10861,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -10878,8 +10878,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -11091,8 +11091,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -11108,8 +11108,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -11321,8 +11321,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -11338,8 +11338,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -11551,8 +11551,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -11568,8 +11568,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -11781,8 +11781,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -11798,8 +11798,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -12011,8 +12011,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -12028,8 +12028,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -12241,8 +12241,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -12258,8 +12258,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -12471,8 +12471,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -12488,8 +12488,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -12701,8 +12701,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -12718,8 +12718,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -12931,8 +12931,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -12948,8 +12948,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -13161,8 +13161,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -13178,8 +13178,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -13391,8 +13391,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -13408,8 +13408,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -13621,8 +13621,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -13638,8 +13638,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -13851,8 +13851,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -13868,8 +13868,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -14081,8 +14081,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -14098,8 +14098,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -14311,8 +14311,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -14328,8 +14328,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -14541,8 +14541,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -14558,8 +14558,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -14771,8 +14771,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -14788,8 +14788,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -15001,8 +15001,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -15018,8 +15018,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -15231,8 +15231,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -15248,8 +15248,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -15461,8 +15461,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -15478,8 +15478,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -15691,8 +15691,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -15708,8 +15708,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -15921,8 +15921,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -15938,8 +15938,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -16151,8 +16151,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -16168,8 +16168,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -16381,8 +16381,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -16398,8 +16398,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -16611,8 +16611,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -16628,8 +16628,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -16841,8 +16841,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -16858,8 +16858,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -17071,8 +17071,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -17088,8 +17088,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -17301,8 +17301,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -17318,8 +17318,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -17531,8 +17531,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -17548,8 +17548,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -17761,8 +17761,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -17778,8 +17778,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -17991,8 +17991,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -18008,8 +18008,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -18221,8 +18221,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -18238,8 +18238,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -18451,8 +18451,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -18468,8 +18468,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -18681,8 +18681,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -18698,8 +18698,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -18911,8 +18911,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -18928,8 +18928,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -19141,8 +19141,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -19158,8 +19158,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -19371,8 +19371,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -19388,8 +19388,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -19601,8 +19601,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -19618,8 +19618,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -19831,8 +19831,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -19848,8 +19848,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -20061,8 +20061,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -20078,8 +20078,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -20291,8 +20291,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -20308,8 +20308,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -20521,8 +20521,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -20538,8 +20538,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -20751,8 +20751,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -20768,8 +20768,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -20981,8 +20981,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -20998,8 +20998,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -21211,8 +21211,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -21228,8 +21228,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -21441,8 +21441,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -21458,8 +21458,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -21671,8 +21671,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -21688,8 +21688,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -21901,8 +21901,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -21918,8 +21918,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -22131,8 +22131,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -22148,8 +22148,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -22361,8 +22361,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -22378,8 +22378,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -22591,8 +22591,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -22608,8 +22608,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -22821,8 +22821,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -22838,8 +22838,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa
@@ -23051,8 +23051,8 @@ Europe
 North America
 Asia
 Europe
-North America
 Europe
+North America
 Africa
 North America
 North America
@@ -23068,8 +23068,8 @@ South America
 
 Oceania
 Europe
-
 Europe
+
 South America
 
 Africa

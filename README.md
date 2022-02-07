@@ -48,8 +48,6 @@ This applies to the following countries:
 - French Southern and Antarctic Lands,
 - Heard Island and McDonald Islands.
 
-### Further Improvements
-
 ### Used Libraries
 
 The main library for visualising the data is altair. Additional libraries where needed and uses for various reasons:

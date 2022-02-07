@@ -33,7 +33,7 @@ After different failed approaches with various techniques to achieve this functi
 
 ### Missing Countries
 
-The automatic download of Berkeley Earth Data did not work for every country. Special characters are encoded in a mysterious way and we failed to decode these characters in Python. Our only remaining solution was to remove the three countries with these problems.
+The automatic download of Berkeley Earth Data did not work for every country. Special characters are encoded in a mysterious way and we failed to decode these characters in Python. Our only remaining solution was to remove the countries with these problems.
 
 This applies to the following countries:
 - Åland,

@@ -94,33 +94,34 @@ In this context, the purpose of this visualization is to inform the interested u
 # Visual Encodings and Interaction Design
 ## Design relationales
 
-- Bar Chart  
-each bar represents a year  
-the height of bars represents the deviation from the mean temperature   
+_Bar Chart_
+- each bar represents a year  
+- the height of bars represents the deviation from the mean temperature   
 
-- Colors for temperature difference  
-red-warm/blue-cold impression for a intuitive understanding of data
+_Colors for Temperature Difference_
+- red-warm/blue-cold impression for an intuitive understanding of data
 
-- search menu for different countries   
+_Search Menu for different Countries_
+- users can decide which countries to evaluate further
 
-- uncertainty only shown in tooltip   
-uncertainty makes the understanding of a simple graph more complex and difficult, but nevertheless it is important to inform the user about it
+_Uncertainty only shown in Tooltip_
+- uncertainty makes the understanding of a simple graph more complex and difficult, but nevertheless it is important to inform the user about it
 
-- tooltip information for values  
-name of country, absolute temperature values as well as deviation value, uncertainty
+_Tooltip Information for Values_
+- name of country, absolute temperature values as well as deviation/anomaly value, uncertainty
 
-- reference and explanation for data
-reference to data source and faq for explanations for anomalies and uncertainty
+_Reference and Explanation for Data_
+- reference to data source and faq for explanations for anomalies and uncertainty
 
 ## Definitions of used terms
 
-- What does temperature anomaly mean?  
+### Anomaly
 
 A temperature anomaly is the difference from the average (baseline) temperature. We use the averaged absolute temperatures between Jan 1951 and Dec 1980 as the baseline temperature. A positive anomaly indicates the observed temperature was warmer than the baseline (with red color), while a negative anomaly indicates the observed temperature was cooler than the baseline (with blue color).  
 
 Reference: https://www.ncdc.noaa.gov/monitoring-references/dyk/anomalies-vs-temperature  
 
-- What does uncertainty mean?  
+### Uncertainty 
 
 The temperatures from Berkeley Earth are observed from a large collection of weather monitoring stations. These stations locate in different areas all around the country, so they have different trends and baselines. The uncertainty represents the 95% confidence interval for statistical noise and spatial undersampling effects.
 

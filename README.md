@@ -14,6 +14,7 @@ Global warming has been observed since the pre-industrial period (between 1850 a
 
 Interactive Prototype:
 - https://berkeleydatavis.herokuapp.com/start
+
 Screencast of Prototype:
 - https://youtu.be/KkbPHWmv08s
 

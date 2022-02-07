@@ -10,6 +10,13 @@ Luis Günther, Maurice Seifert, Wenli Xu
 
 Global warming has been observed since the pre-industrial period (between 1850 and 1900). Although there were different periods of climate change in the history of the earth, the current changes are not simply due to natural causes. It is a global problem, but people in different countries express various degrees of concerns.
 
+## Links
+
+Interactive Prototype:
+- https://berkeleydatavis.herokuapp.com/start
+Screencast of Prototype:
+- https://youtu.be/KkbPHWmv08s
+
 # Reflection
 
 ## Problems

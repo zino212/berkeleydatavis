@@ -60,11 +60,12 @@ This applies to the following countries:
 Deploying the visualisation turned out to be more difficult than anticipated.
 
 The project was initially created as a GitLab Repository at https://git.imp.fu-berlin.de, a separeated GitLab of Freie Universität Berlin.
-In this environment, there is no possibility of using GitLab Pages for deploying a project. Therefore the project was migrated to a public GitLab repository. The deployment process also failed here, so another migration to GitHub was done. GitHub Pages also did not work out.
+In this environment, there is no possibility of using GitLab Pages for deploying a project.
+Therefore the project was migrated to a public GitLab repository. The deployment process failed here, so another migration to GitHub was done. GitHub Pages also did not work out because only static pages can be deployed with either GitLab Pages or GitHub Pages, but for this visualisation a dynamic page was needed.
 
-In the end the only working solution was using https://heroku.com for deployment.
+In the end the only working solution for a dynamic deployment was using https://heroku.com. The heroku pipeline detects changes at the GitHub repository and automatically deploys the visualisation to https://berkeleydatavis.herokuapp.com.
 
-This is also the explanation for a shortened commit history.
+The many different exports and migrations are also the explanation for a shortened commit history.
 
 ## Used Libraries
 
